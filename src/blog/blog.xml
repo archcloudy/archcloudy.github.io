@@ -1,0 +1,14 @@
+<blog>
+    <post id="1">
+        <date>2026-01-01</date>
+        <title>w-woah, first blog in 2026!</title>
+        <preview>t-this is really awesome...!</preview>
+        <content>
+            haiii! maybe i'll update the blog soon, this is the first post i have made!
+            i-im still learning on how this w-works!
+        </content>
+        <tag>new</tag>
+        <tag>beginner</tag>
+        <tag>first-2026</tag>
+    </post>
+</blog>

@@ -1,30 +1,13 @@
-# RichardApps - Webpage
+# archcloudy.github.io
+Hey, it's my personal website source code, welcome welcomeee!!!!
 
-Github-Repository of my personal webpage. Including news, projects, picture grid, about and contact information.
-Made using vanilla HTML/CSS and JavaScript. Also includes basic responsiveness.
-
-Featuring a design inspired by old vintage terminals and cyberpunk!
-Now supports themes.
-
-You can view the full website here:
-[richardapps.net](https://richardapps.net)
+Take a look at my website btwww...
+[archcloudy.github.io](https://archcloudy.github.io)
 
 ## Screenshots
 
 ![App Screenshot](/assets/images/github-preview/preview.png)
 ![App Screenshot](/assets/images/github-preview/preview-2.png)
-
-## Roadmap
-
-- [x] Add a dynamic system for news and blog-posts
-- [x] Tidy up the [style.css](/assets/css/style.css) file
-- [ ] Improve the experience for different screen resolutions and devices (1080p screens, mobile)
-
-## Contributing
-
-Contributions are always welcome!
-
-Refer to [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
@@ -46,3 +29,6 @@ You're free to copy, modify, distribute, and use the source code, provided that 
 #### ASCII created with
 
 - [TAAG](https://patorjk.com/software/taag) by patorjk
+
+## Credits
+- richardapps/richardapps-web - Wouldn't be possible if it wasnt for their source code!
