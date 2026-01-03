@@ -1,0 +1,13 @@
+Old/favicon.ico
+Old/favicon.png
+favicon-amber.png
+favicon-cherry.png
+favicon-danger.png
+favicon-deepsea.png
+favicon-g59.png
+favicon-neon.png
+favicon-ocean.png
+favicon-rainy.png
+favicon-terminal.png
+favicon-win95.png
+favicon-winter.png

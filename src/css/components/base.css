@@ -77,24 +77,6 @@ b{
     text-align: center;
 }
 
-.privacy-policy-container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    line-height: 1.3;
-    text-align: left;
-}
-
-.privacy-policy-title {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.privacy-policy-container p::before {
-    content: "· "; /* adds a dot before each paragraph */
-    color: #ffffff;
-}
-
 a:link:not(.tab_active, a:hover), a:visited:not(.tab_active, a:visited:hover), em a:visited {
     color: var(--main-color);
 }
@@ -414,11 +396,6 @@ nav ul li a {
         transition: background-color 0.1s ease, color 0.1s ease;
     }
 }
-
-
-
-
-
 
 a{
     border-radius: 0px; /* was 2.5px */

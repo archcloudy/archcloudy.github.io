@@ -1,8 +1,5 @@
-
-# ❄️ \\\ fr0st's - Webpage
-Github-Repository of my personal webpage. Including news, projects, picture grid, about and contact pages.
-Made using Vanilla HTML/CSS and JavaScript.
-
+# archcloudy.github.io - cloudy's webpage!
+oh h-hi! welcome to my boring personal website...!
 Featuring a design inspired by old vintage terminals!
 
 ## Screenshots
@@ -14,18 +11,12 @@ Featuring a design inspired by old vintage terminals!
       <td>Mobile</td>
     </tr>
     <tr>
-      <td><img src="https://raw.githubusercontent.com/fr0st-iwnl/assets/main/thumbnails/fr0st.png" alt="Desktop"/></td>
-      <td><img src="https://raw.githubusercontent.com/fr0st-iwnl/assets/main/thumbnails/fr0st-mobile.png" alt="Mobile"/></td>
+      <td><img width="1440" height="786" alt="Desktop" src="https://github.com/user-attachments/assets/de022382-aab6-4706-b630-cb9f41210ed1" /></td>
+      <img width="387" height="655" alt="Mobile" src="https://github.com/user-attachments/assets/1a0b8fd9-4702-42a0-b9f2-da2272340392" />
     </tr>
   </table>
 </div>
 
-
-## Roadmap / TODOs
-
-- [ ] Remake blogs to use markdown -  *This will take some time because I’m not sure if I want to do it yet. Right now, I’m working with HTML because it feels easier.*
-
-
 ## Credits
-
-- richardapps-web: [web-page](https://github.com/Richard-Apps/richardapps-web) 
+- [richardapps-web/web-page](https://github.com/Richard-Apps/richardapps-web) 
+- [fr0st-iwnl/fr0st.xyz](https://github.com/fr0st-iwnl/fr0st.xyz)
