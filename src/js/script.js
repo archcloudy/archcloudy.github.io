@@ -99,6 +99,67 @@ function changeTab(tab) {
 }
 
 /**
+ * PROJECT CATEGORIES
+*/
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize with DiscordBots projects displayed
+    changeColl('discordbots');
+});
+
+function changeColl(category) {
+    // Get all project list items
+    const projects = document.querySelectorAll('#pr_list li');
+
+    // Loop through each project item
+    projects.forEach(project => {
+        // Check if the project belongs to the selected category
+        if (project.getAttribute('data-category') === category) {
+            project.style.display = ''; // Show the project
+        } else {
+            project.style.display = 'none'; // Hide the project
+        }
+    });
+
+    // Update the active class on the tabs
+    const tabs = document.querySelectorAll('.pic_coll_tabs');
+    tabs.forEach(tab => {
+        tab.classList.remove('tab_active'); // Remove active class from all tabs
+    });
+    
+    // Add active class to the currently selected tab
+    const activeTab = document.querySelector(`.pic_coll_tabs[onclick="changeColl('${category}')"]`);
+    if (activeTab) {
+        activeTab.classList.add('tab_active');
+    }
+}
+
+// Add event listener to the links
+document.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', function() {
+        // Check if the clicked link is the projects link
+        if (this.getAttribute('href') === '#projects') {
+            // Ensure the webdev category is shown
+            changeColl('discordbots');
+        }
+    });
+});
+
+// Also handle the hash change for back/forward navigation
+window.addEventListener('hashchange', function() {
+    if (location.hash === '#projects') {
+        changeColl('discordbots');
+    }
+});
+
+// Initialize with Web Dev projects displayed on load
+document.addEventListener('DOMContentLoaded', function() {
+    if (location.hash === '#projects') {
+        changeColl('discordbots');
+    }
+});
+
+/**
  * HAMBURGER / NAVBAR
 */
 
